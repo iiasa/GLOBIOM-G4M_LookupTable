@@ -12,7 +12,7 @@
 ## Introduction
 This dataset provides a model emulation (so called "Lookup-Table") of the [GLOBIOM](https://iiasa.ac.at/web/home/research/GLOBIOM/GLOBIOM.html)-[G4M](https://iiasa.ac.at/web/home/research/researchPrograms/EcosystemsServicesandManagement/G4M.en.html) models with respect to greenhouse gas (GHG) emission reduction potentials from agriculture, forestry and other land use (AFOLU) and land based biomass potentials for bioenergy. The dataset represents a two dimensional scenario matrix combining different carbon price and biomass price trajectories for the Shared Socio-economic Pathway 2 [(SSP2)](https://www.sciencedirect.com/science/article/pii/S0959378016300784) and can be used in other models e.g. energy system models, to develop climate mitigation pathways that explicitly consider impacts/potentials from the land use sector.
 
-Information on the GLOBIOM model can be found [here](https://iiasa.github.io/GLOBIOM). Detailed information on the GLOBIOM-G4M Lookup-Table structure and results are presented our paper ['Land based climate change mitigation potentials within the agenda for sustainable development'](https://iopscience.iop.org/journal/1748-9326) and the accompanying [supplementary material](https://iopscience.iop.org/journal/1748-9326). 
+Information on the GLOBIOM model can be found [here](https://iiasa.github.io/GLOBIOM). Detailed information on the GLOBIOM-G4M Lookup-Table structure and results are presented our paper ['Land based climate change mitigation potentials within the agenda for sustainable development'](https://iopscience.iop.org/article/10.1088/1748-9326/abc58a) and the accompanying [supplementary material](https://cfn-live-content-bucket-iop-org.s3.amazonaws.com/journals/1748-9326/16/2/024006/1/erlabc58asupp1.pdf?AWSAccessKeyId=AKIAYDKQL6LTV7YY2HIK&Expires=1611667927&Signature=nOmBEJoVjub3XaUt13Fb3HPdw34%3D). 
 
 For further questions please contact [Stefan Frank](mailto:frank@iiasa.ac.at)
 
@@ -144,8 +144,8 @@ dat <- pivot_longer(dat, cols=as.character(seq(2000, 2100, by=10)), names_to="Ye
 ```
 
 ## User guidelines
-The Lookup-Table dataset is free to use under the [CC BY 4.0 licence](https://creativecommons.org/licenses/by/4.0/). Please cite our [paper](https://iopscience.iop.org/journal/1748-9326) when using the dataset.
+The Lookup-Table dataset is free to use under the [CC BY 4.0 licence](https://creativecommons.org/licenses/by/4.0/). Please cite our [paper](https://iopscience.iop.org/article/10.1088/1748-9326/abc58a#erlabc58as5) when using the dataset.
 
-*Frank S, Gusti M, Havlík P, Lauri P, DiFulvio F, Forsell N, Hasegawa T, Krisztin T, Palazzo A, and Valin H (2020). Land based climate change mitigation potentials within the agenda for sustainable development. Environmental Research Letters. Accepted.*
+*Frank S, Gusti M, Havlík P, Lauri P, DiFulvio F, Forsell N, Hasegawa T, Krisztin T, Palazzo A, and Valin H (2021). Land based climate change mitigation potentials within the agenda for sustainable development. Environmental Research Letters. Volume 16(2)024006.*
 
 
